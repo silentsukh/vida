@@ -2,7 +2,7 @@ import ActionTypes from '../src/actions/ActionTypes';
 import { requestLogin } from '../src/actions/Login';
 
 describe('Actions::Login', function(){
-	describe('#requestLogin(email, password)', function(){
+	describe('#login(email, password)', function(){
 		it('should return data without error', function() {
 			expect(JSON.parse(requestLogin('test@vida.co.uk','ForTheLoveOfTest'))).to.deep.equal({
 				data: {
