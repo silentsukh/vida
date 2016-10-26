@@ -24743,6 +24743,11 @@
 						'h1',
 						null,
 						'Hello Vida!'
+					),
+					_react3.default.createElement(
+						'p',
+						null,
+						'Welcome to the future'
 					)
 				);
 			}
