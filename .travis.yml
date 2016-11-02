@@ -1,9 +1,6 @@
 language: node_js
 node_js:
-  - "6"
-  - "6.1"
-  - "5.11"
-  - "0.6"
-  - "iojs"
-  notifications:
-    slack: fatehinc:8GLkxylqZfZ0KHFn8ArfCOmn
+  - "6.0.x"
+  - "6.1.x"
+notifications:
+  slack: fatehinc:8GLkxylqZfZ0KHFn8ArfCOmn
